@@ -15,8 +15,8 @@ import sklearn
 import streamlit as st
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-MODEL_PATH = os.path.join(BASE_DIR, "models", "best_model.pkl")
-DATA_PATH = os.path.join(BASE_DIR, "dataset", "Data_Train.xlsx")
+MODEL_PATH = os.path.join(BASE_DIR, "best_model.pkl")
+DATA_PATH = os.path.join(BASE_DIR, "Data_Train.xlsx")
 
 STUDENT = "YOUR NAME  |  YOUR REG NO"      # <- edit before submitting
 
